@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:ital,wght@0,100;0,500;1,400;1,500&display=swap');
+
+
+.image{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+/* Setting the height and width of the element with class "profile-image" inside an element with class
+"image" to 100% of its parent element's height and width respectively. It is also using the
+"object-fit" property to ensure that the image fills the entire container while maintaining its
+aspect ratio. */
+.image .profile-image{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
